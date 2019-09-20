@@ -111,83 +111,84 @@
 
 <p>On utilise * , + ou -</p>
 
-**Ajouter un élément à une liste sans modifier la continuité de cette dernière**
+<p><b>Ajouter un élément à une liste sans modifier la continuité de cette dernière</b></p>
 
-*Avec les paragraphes:*
+<p><em>Avec les paragraphes:</em></p>
+<ul>
+ <li>Premier objet</li>
+ <li>Deuxième objet</li>
 
-* Premier objet
-* Deuxième objet
+  <p>J'ai besoin d'intégrer un paragraphe dans ma liste (espace ou tab ou se mettre au même niveau)</p>
 
-  J'ai besoin d'intégrer un paragraphe dans ma liste (espace ou tab ou se mettre au même niveau)
+ <li>Troisième objet</li>
 
-* Troisième objet
+<p><em>Avec les blockquotes:</em></p>
 
-*Avec les blockquotes:*
+ <li>Premier objet</li>
+ <li>Deuxième objet</li>
 
-* Premier objet
-* Deuxième objet
+  <blockquote>Voici un blockquote</blockquote>
 
-  >Voici un blockquote
+ <li>Troisième objet</li>
+</ul>
 
-* Troisième objet
+  <h3>Les blocks de code</h3>
 
+<p>Les blocs de code sont normalement en retrait de quatre espaces ou d'un seul onglet. Quand ils sont dans une liste, indentez-les huit espaces ou deux onglets.</p>
+<ol>
+   <li>Ouvrir le fichier.</li>
+   <li>Par exemple:</li>
 
-### Les blocks de code
+        <blockquote>< html ></blockquote>
+          <blockquote>< head ></blockquote>
+            <blockquote>< title >Test< /title ></blockquote>
+          <blockquote>< /head ></blockquote>    
 
-Les blocs de code sont normalement en retrait de quatre espaces ou d'un seul onglet. Quand ils sont dans une liste, indentez-les huit espaces ou deux onglets.
+   <li>Mettez à jour le titre pour correspondre au nom de votre site Web.</li>
 
-1.  Ouvrir le fichier.
-2.  Par exemple:
+<p>Le rendu ressemble à ceci:</p>
 
-        <html>
-          <head>
-            <title>Test</title>
-          </head>         
+    <p>Ouvrir le fichier.</p>
 
-3.  Mettez à jour le titre pour correspondre au nom de votre site Web.
-
-Le rendu ressemble à ceci:
-
-    Ouvrir le fichier.
-
-    Par exemple:
+    <p>Par exemple:</p>
 
 ```html
-        <html>
-          <head>
-            <title>Test</title>
-          </head>
+        <blockquote>< html ></blockquote>
+          <blockquote>< head ></blockquote>
+            <blockquote>< title >Test< /title ></blockquote>
+          <blockquote>< /head ></blockquote>
 ```         
+</ol>
 
-    Mettez à jour le titre pour correspondre au nom de votre site Web.
-
-
-### Images
-
-![nom de l'image](lien de limage)
+    <p>Mettez à jour le titre pour correspondre au nom de votre site Web.</p>
 
 
-### Liens et adresses mail
+   <h3>Images</h3>
 
-< https://www.markdownguide.org >
-< fake@example.com >
-
-<https://www.markdownguide.org>
-<fake@example.com>
+<img src="nom de l'image"(lien de limage)> ![nom de l'image](lien de l'image)
 
 
-### Les liens formatés
+   <h3>Liens et adresses mail</h3>
 
-I love supporting the ** [EFF ] (https://eff.org)**.
-This is the * [Markdown Guide] (https://www.markdownguide.org)*.
+<p>< https://www.markdownguide.org ></p>
+<p>< fake@example.com >
 
-I love supporting the **[EFF](https://eff.org)**.
-This is the *[Markdown Guide](https://www.markdownguide.org)*.
+<a href="https://www.markdownguide.org">https://www.markdownguide.org</a>
+<a href="fake@example.com">fake@example.com</a>
 
 
-## Source 
+   <h3>Les liens formatés</h3>
 
-* [MarkDown Guide](https://www.markdownguide.org/basic-syntax/)
+<p>I love supporting the ** [EFF ] (https://eff.org)**.</p>
+<p>This is the *[Markdown Guide] (https://www.markdownguide.org)*.</p>
+
+<p>I love supporting the <b><a href="https://eff.org">EFF</a></b>.</p>
+<p>This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.</p>
+
+
+   <h3>Source</h3>
+
+<p><a href="https://www.markdownguide.org/basic-syntax/">Markdown Guide</a>
 
 </body>
 </html>
