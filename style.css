@@ -2,14 +2,29 @@
     text-align: center;
     padding: 30px;
     color: #80140c;
+    font-size: 50px;
 }
 
 .vraih3 {
     text-decoration: underline;
     color: #802c28;
+    font-size: 30px;
 }
 
 body {
     background-color: black;
     color: white;
+    font-family: 'Kalam', cursive;
 }
+
+a {
+        text-decoration: underline;
+        color: #a00;
+      }
+      a:visited {
+        color: #844;
+      }
+      a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: white;
+      }
